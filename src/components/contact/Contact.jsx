@@ -12,14 +12,14 @@ const Contact = () => {
     <div className='container contact__container'>
       <div className='contact__options'>
       <article className='contact__option'>
-        <MdOutlineEmail/>
+        <MdOutlineEmail className='contact__option-icon'/>
         <h4> Email </h4>
         <h5>mabertha.berliana@gmail.com</h5>
         <a href = "mailto:mabertha.berliana@gmail.com" target="_blank">Send a Message </a>
       </article>
 
       <article className='contact__option'>
-        <BsWhatsapp/>
+        <BsWhatsapp className='contact__option-icon'/>
         <h4> WhatsApp </h4>
         <h5>085707811131</h5>
         <a href = "https://api.whatsapp.com/send?phone+6285707811131=" target="_blank">Send a Message </a>
