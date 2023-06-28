@@ -66,6 +66,30 @@ const Experience = () => {
               <small className='text-light'> Basic</small>
               </div>
             </article>
+
+            <article className='experience__details'>
+              <BsPatchCheckFill className='experience__details-icon'/>
+              <div>
+              <h4> Figma </h4>
+              <small className='text-light'> Basic</small>
+              </div>
+            </article>
+
+            <article className='experience__details'>
+              <BsPatchCheckFill className='experience__details-icon'/>
+              <div>
+              <h4> Responsive Web </h4>
+              <small className='text-light'> Basic</small>
+              </div>
+            </article>
+
+            <article className='experience__details'>
+              <BsPatchCheckFill className='experience__details-icon'/>
+              <div>
+              <h4> GitHub </h4>
+              <small className='text-light'> Basic</small>
+              </div>
+            </article>
           </div>
         </div>
 
@@ -95,7 +119,23 @@ const Experience = () => {
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon'/>
               <div>
+              <h4> Laravel </h4>
+              <small className='text-light'> Basic</small>
+              </div>
+            </article>
+
+            <article className='experience__details'>
+              <BsPatchCheckFill className='experience__details-icon'/>
+              <div>
               <h4> Express JS</h4>
+              <small className='text-light'> Experience</small>
+              </div>
+            </article>
+
+            <article className='experience__details'>
+              <BsPatchCheckFill className='experience__details-icon'/>
+              <div>
+              <h4> SQL </h4>
               <small className='text-light'> Experience</small>
               </div>
             </article>
@@ -111,7 +151,7 @@ const Experience = () => {
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon'/>
               <div>
-              <h4> Mysql </h4>
+              <h4> MYSQL </h4>
               <small className='text-light'> Experience</small>
               </div>
             </article>
@@ -120,6 +160,14 @@ const Experience = () => {
               <BsPatchCheckFill className='experience__details-icon'/>
               <div>
               <h4> Postman </h4>
+              <small className='text-light'> Experience</small>
+              </div>
+            </article>
+
+            <article className='experience__details'>
+              <BsPatchCheckFill className='experience__details-icon'/>
+              <div>
+              <h4> REST API </h4>
               <small className='text-light'> Experience</small>
               </div>
             </article>
