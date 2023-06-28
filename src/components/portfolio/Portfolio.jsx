@@ -1,10 +1,11 @@
 import React from 'react'
 import './portfolio.css'
-import IMG1 from '../../assets/portfolio1.jpg'
-import IMG2 from '../../assets/portfolio1.jpg'
-import IMG3 from '../../assets/portfolio1.jpg'
-import IMG4 from '../../assets/portfolio1.jpg'
-import IMG5 from '../../assets/portfolio1.jpg'
+import IMG1 from '../../assets/portfolio1.png'
+import IMG2 from '../../assets/portfolio2.png'
+import IMG3 from '../../assets/portfolio3.png'
+import IMG4 from '../../assets/portfolio4.png'
+import IMG5 from '../../assets/portfolio5.png'
+import IMG6 from '../../assets/portfolio6.png'
 
 //DO NOT USE THE IMAGES IN PRODUCTION
 
@@ -19,24 +20,38 @@ const data =[
   {
     id: 2,
     image: IMG2,
-    title: 'Portfolio Tailwind CSS',
+    title: 'SpaceWork (Website Loker)',
     github: '',
     demo: 'https://spacework.vercel.app/'
   },
   {
     id: 3,
     image: IMG3,
-    title: 'Portfolio Tailwind CSS',
-    github: '',
-    demo: 'https://websitekami.wixsite.com/cookzone'
+    title: 'Landing Page',
+    github: 'https://github.com/Maberthaab/Challenge1-BCR',
+    demo: 'https://bcarental.netlify.app/'
   },
   {
-    id: 3,
-    image: IMG3,
-    title: 'Portfolio Tailwind CSS',
+  id: 4,
+  image: IMG4,
+  title: 'Fresh Fruits',
+  github: '',
+  demo: 'https://freshtha.netlify.app/'
+},
+  {
+    id: 5,
+    image: IMG5,
+    title: 'Portfolio',
     github: '',
     demo: 'https://websitekami.wixsite.com/portofolioo'
   },
+  {
+    id: 6,
+    image: IMG6,
+    title: 'CookZone (Website Resep Makanan dan Minuman',
+    github: '',
+    demo: 'https://websitekami.wixsite.com/cookzone'
+  }, 
 ]
 const Portfolio = () => {
   return (
