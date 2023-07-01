@@ -14,7 +14,7 @@ const data =[
   {
     id: 0,
     image: IMG0,
-    title: 'Portfolio Tailwind CSS',
+    title: 'Website Car Rental Menggunakan ReactJS',
     github: 'https://github.com/Maberthaab/Car-Rental-React',
     demo: 'https://rental-car-react.netlify.app/'
   },
