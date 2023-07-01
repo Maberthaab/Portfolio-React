@@ -1,5 +1,6 @@
 import React from 'react'
 import './portfolio.css'
+import IMG0 from '../../assets/portfolio0.png'
 import IMG1 from '../../assets/portfolio1.png'
 import IMG2 from '../../assets/portfolio2.png'
 import IMG3 from '../../assets/portfolio3.png'
@@ -10,6 +11,13 @@ import IMG6 from '../../assets/portfolio6.png'
 //DO NOT USE THE IMAGES IN PRODUCTION
 
 const data =[
+  {
+    id: 0,
+    image: IMG0,
+    title: 'Portfolio Tailwind CSS',
+    github: 'https://github.com/Maberthaab/Car-Rental-React',
+    demo: 'https://rental-car-react.netlify.app/'
+  },
   {
     id: 1,
     image: IMG1,
